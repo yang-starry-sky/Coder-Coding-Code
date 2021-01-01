@@ -79,22 +79,22 @@ void output(const int s[], int N){
     start=clock();
     printf("%d :",algorithm1(s,N));
     finish=clock();
-    printf("%f seconds\n",(double)finish-start);
+    printf("%f mseconds\n",(double)finish-start);
 
     start=clock();
     printf("%d :",algorithm2(s,N));
     finish=clock();
-    printf("%f seconds\n",(double)finish-start);
+    printf("%f mseconds\n",(double)finish-start);
 
     start=clock();
     printf("%d :",algorithm3(s,0,N-1));
     finish=clock();
-    printf("%f seconds\n",(double)finish-start);
+    printf("%f mseconds\n",(double)finish-start);
 
     start=clock();
     printf("%d :",algorithm4(s,N));
     finish=clock();
-    printf("%f seconds\n",(double)finish-start);
+    printf("%f mseconds\n",(double)finish-start);
 }
 
 void test1(){
